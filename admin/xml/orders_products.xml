@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data SYSTEM "orders_products.dtd">
+<data>
+  <order>
+    <order_id>4</order_id>
+    <first_name>Admin</first_name>
+    <last_name>Admin</last_name>
+    <email>admin@petshop.demo</email>
+    <total_purchases>47.8</total_purchases>
+  </order>
+  <order>
+    <order_id>5</order_id>
+    <first_name>Gmail</first_name>
+    <last_name>User</last_name>
+    <email>user@gmail.com</email>
+    <total_purchases>22.5</total_purchases>
+  </order>
+  <popular_product>
+    <product_id>1</product_id>
+    <name>Acana Puppy Small Breed</name>
+    <total_sold>3</total_sold>
+  </popular_product>
+  <popular_product>
+    <product_id>8</product_id>
+    <name>Yakers Crunchy Bars</name>
+    <total_sold>1</total_sold>
+  </popular_product>
+  <popular_product>
+    <product_id>9</product_id>
+    <name>Pet Camelot Περιλαίμιο Πνίχτης για Μακρύ Τρίχωμα</name>
+    <total_sold>1</total_sold>
+  </popular_product>
+  <popular_product>
+    <product_id>11</product_id>
+    <name>Pet Camelot Οδηγός Επαναφοράς</name>
+    <total_sold>1</total_sold>
+  </popular_product>
+  <popular_product>
+    <product_id>17</product_id>
+    <name>Tasty Bone Nylon - Puppy</name>
+    <total_sold>1</total_sold>
+  </popular_product>
+</data>

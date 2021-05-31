@@ -1,0 +1,27 @@
+.edit-wrapper {
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: max-content;
+
+}
+
+.edit-wrapper input {
+    margin: auto;
+    display: block;
+}
+
+.left-side {
+
+    display: inline-block;
+    vertical-align: top;
+    min-width: 450px;
+}
+
+.right-side {
+
+    display: inline-block;
+    vertical-align: top;
+    min-width: 500px;
+}

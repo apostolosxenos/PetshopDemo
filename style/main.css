@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html,
+body {
+    font-family: "Open Sans";
+    font-size: 14px;
+    background-color: #F1F1F1;
+
+}
+
+a {
+    color: rebeccapurple;
+    display: inline-block;
+    text-decoration: none;
+}
+
+h3 {
+    color: rebeccapurple;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    margin: 30px 0 30px;
+}
+
+.navbar-nav li h5 {
+    color: #F1F1F1;
+}
+
+.navbar-nav li h5:hover {
+    color: #F1F1F1;
+    font-weight: bold;
+}
+
+.dropdown-menu p {
+
+    text-align: center;
+
+}
+
+*:focus {
+    outline: none;
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.card img {
+
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 125px !important;
+    height: 125px !important;
+
+}
+
+
+.card button:hover {
+    color: #F1F1F1;
+    opacity: 1.0;
+}
+
+.price {
+    color: rebeccapurple;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn-primary.btn-custom {
+
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+
+}
+
+
+*:focus {
+    outline: none;
+}
+
+
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.card .btn {
+
+    font-size: x-small;
+    color: rebeccapurple;
+}
+
+.card .btn-cart {
+
+    color: #F1F1F1;
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.card .btn-cart:hover {
+
+    color: rebeccapurple;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 12px;
+  }
+
+footer {
+
+    margin-top: 20px;
+    background-color: #333;
+    padding-top: 10px;
+    color: #f1f1f1;
+    text-align: center;
+    height: 75px;
+}
+
+form .error {
+  color: #ff0000;
+}
