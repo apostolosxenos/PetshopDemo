@@ -1,5 +1,7 @@
 # Petshop demo
 
+https://petshop23.herokuapp.com
+
 This application is an e-shop (petshop) demo created by me from the scratch for educational purposes.
 
 Feel free to take a visit and see its functionalities.
