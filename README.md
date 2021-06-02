@@ -7,11 +7,11 @@ This application is an e-shop (petshop) demo created by me from the scratch for 
 Feel free to take a visit and see its functionalities.
 
 You can either login as an Administrator
-username: admin@petshop.demo
+username: admin@petshop23.demo
 password: q1w1e1Q2W2E2_
 
 or as a User
-username: user@petshop.demo
+username: user@petshop23.demo
 password: 1234!@#$
 
 or ever create your own account and make your virtual orders!
