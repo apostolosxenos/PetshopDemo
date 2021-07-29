@@ -1,4 +1,17 @@
+/* Container */
+
+.img-container {
+    margin: 0 auto;
+    border: 0px solid black;
+    width: 50%;
+    height: 250px;
+    border-radius: 3px;
+    background-color: ghostwhite;
+    text-align: center;
+}
+
 /* Preview */
+
 .preview {
     width: 100px;
     height: 100px;
@@ -12,6 +25,7 @@
 }
 
 /* Button */
+
 .button {
     border: 0px;
     background-color: deepskyblue;

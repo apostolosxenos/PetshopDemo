@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
     $.post('turnover_ajax.php', {
-            view: 'turnover'
-        })
+        view: 'turnover'
+    })
         .done(function (data) {
 
             console.log(data);
@@ -130,8 +130,8 @@ $(document).ready(function () {
         });
 
     $.post('popular_products_ajax.php', {
-            view: 'popular-products'
-        })
+        view: 'popular-products'
+    })
         .done(function (data) {
 
             console.log(data);
@@ -144,19 +144,15 @@ $(document).ready(function () {
 
             var popularProductsChartData = {
                 labels: ["id_" + data[0].product_id,
-                    "id_" + data[1].product_id,
-                    "id_" + data[2].product_id,
-                    "id_" + data[3].product_id,
-                    "id_" + data[4].product_id
+                "id_" + data[1].product_id,
+                "id_" + data[2].product_id,
                 ],
                 datasets: [{
                     backgroundColor: random_colors,
                     borderWidth: 1,
                     data: [data[0].total_sold,
-                        data[1].total_sold,
-                        data[2].total_sold,
-                        data[3].total_sold,
-                        data[4].total_sold
+                    data[1].total_sold,
+                    data[2].total_sold,
                     ]
                 }]
             };
@@ -187,16 +183,18 @@ $(document).ready(function () {
         });
 
     $.post('best_customers_ajax.php', {
-            view: 'best-customers',
-        })
+        view: 'best-customers',
+    })
         .done(function (data) {
 
             console.log(data);
 
             var emails = [];
+            var total_purchases = [];
 
             data.forEach(element => {
                 emails.push(element.email);
+                total_purchases.push(element.total_purchases);
             });
 
             var bestCustomersChartData = {
@@ -205,10 +203,7 @@ $(document).ready(function () {
                     backgroundColor: ['rgba(255,215,0,0.5)', 'rgba(192,192,192,0.5)', 'rgb(205,127,50,0.5)'],
                     borderColor: ['rgba(255,215,0,1)', 'rgba(192,192,192,1)', 'rgb(205,127,50,1)'],
                     borderWidth: 1,
-                    data: [data[0].total_purchases,
-                        data[1].total_purchases,
-                        data[2].total_purchases
-                    ]
+                    data: total_purchases
                 }]
             };
 

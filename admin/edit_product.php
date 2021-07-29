@@ -51,7 +51,7 @@
 
 
 
-                             <form method="POST" action="<?php echo htmlspecialchars('product_check.php') ?>" enctype="multipart/form-data">
+                             <form method="POST" action="<?php echo htmlspecialchars('product_check.php') ?>">
 
 
 
@@ -106,14 +106,15 @@
                                      </label>
 
 
-                                     <div class="preview">
-                                         <img src="<?php echo DOMAIN . $image; ?>" id="img" width="100">
+                                     <div class="preview text-center">
+                                         <img src="<?php echo DOMAIN . $image; ?>" name="img" id="img" width="20%">
                                          <div class="mt-2 mb-4">
                                              <input type="file" id="file" name="file" />
-                                             <input type="button" class="button" value="Προεπισκόπηση" id="img_upload_btn">
+                                             <input type="button" class="button" value="Upload" id="img_upload_btn">
                                          </div>
-
                                      </div>
+
+
                                  </div>
 
 

@@ -23,7 +23,7 @@ require_once('../backend_functions.php');
   <!-- Theme style -->
   <link rel="stylesheet" href="css/adminlte.min.css">
   <!-- Google Font: Nunito -->
-  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- REQUIRED SCRIPTS -->
 

@@ -39,14 +39,14 @@ if ($_SESSION['loggedin'] === true && $_SESSION['cart']['total_quantity'] > 0) {
         $stmt2->bind_param(
             'isssiisss',
             $order_id,
-            $db->real_escape_string($_POST['first_name']),
-            $db->real_escape_string($_POST['last_name']),
-            $db->real_escape_string($_POST['address']),
-            $db->real_escape_string($_POST['mobile_number']),
-            $db->real_escape_string($_POST['postal_code']),
-            $db->real_escape_string($_POST['city']),
+            $_POST['first_name'],
+            $_POST['last_name'],
+            $_POST['address'],
+            $_POST['mobile_number'],
+            $_POST['postal_code'],
+            $_POST['city'],
             $_POST['delivery_method'],
-            $db->real_escape_string($_POST['comments'])
+            $_POST['comments']
         );
 
         if (!$stmt2->execute()) $stmt2_err = 1;
